@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import ContextTypes
-from core.ai_client import chat_with_harley
+from ai.ai_client import chat_with_harley
 
 user_sessions: dict[int, bool] = {}
 
